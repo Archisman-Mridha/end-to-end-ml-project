@@ -1,10 +1,10 @@
 init-venv:
 	python3 -m venv env && \
-		chmod +x ./env/bin/activate && \
-		chmod +x ./env/bin/deactivate
+		chmod +x ./env/bin/activate.fish && \
+		chmod +x ./env/bin/deactivate.fish
 
 activate-venv:
-	./env/bin/activate
+	./. ./env/bin/activate.fish
 
 deactivate-venv:
-	./env/bin/deactivate
+	. ./env/bin/deactivate.fish

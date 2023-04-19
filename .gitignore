@@ -3,3 +3,6 @@
 
 # Dataset
 dataset.csv
+
+# Saved model
+model.pkl
